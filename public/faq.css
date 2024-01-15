@@ -1,0 +1,66 @@
+@import "./master.css";
+@import "./table.css";
+
+.wrapper {
+    width: 50%;
+    margin-left: 25%;
+    font-size: xx-large;
+    text-align: center;
+    color: var(--light-blue);
+}
+
+.faq {
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 20%;
+    background-color: var(--dark-grey);
+    cursor: help;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.wrapper a:visited {
+    color: #7289DA;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.wrapper a:link {
+    color: #7289DA;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.wrapper a:active {
+    color: #7289DA;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.wrapper a:hover {
+    color: #7289DA;
+    background-color: transparent;
+    text-decoration: underline;
+}
