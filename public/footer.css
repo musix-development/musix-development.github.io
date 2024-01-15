@@ -1,0 +1,83 @@
+footer {
+  background-color: var(--dark-grey);
+  width: 100%;
+  height: 200px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.underFooter {
+  background-color: var(--dark-grey);
+  font-size: large;
+  text-align: center;
+}
+
+.footerItem {
+  width: 25%;
+  height: 150px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+  text-align: center;
+}
+
+.footerDiscordLogo {
+  margin-top: 40px;
+  width: 78.15px;
+  height: 56.225px;
+  background-image: url("./img/logos/discord.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footerDiscordLogo a {
+  float: left;
+  text-align: center;
+  background-color: transparent;
+  color: transparent;
+  padding-left: 25px;
+  padding-right: 55px;
+  padding-bottom: 55px;
+}
+
+.footerGithubLogo {
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+  background-image: url("./img/logos/github.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footerGithubLogo a {
+  float: left;
+  text-align: center;
+  background-color: transparent;
+  color: transparent;
+  padding: 16px;
+}
+
+#footerInvite {
+  margin-top: 1.5cm;
+  width: 6cm;
+  height: 1cm;
+  border-radius: 20px;
+  background-color: var(--main-accent);
+  text-align: center;
+  transition: 0.3s;
+  border: none;
+}
+
+#footerInvite a {
+  font-size: x-large;
+  color: white;
+  text-shadow: 0 0 2px white;
+  text-decoration: none;
+  padding: 14px 16px;
+}

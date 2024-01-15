@@ -1,0 +1,155 @@
+@import "./master.css";
+
+h1 {
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 0 0 5px white;
+    padding: 1rem;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 1.5vw;
+    text-shadow: 0 0 5px white;
+    padding: 1rem;
+}
+
+img {
+    float: right;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    box-shadow: 0 0 30px -5px black;
+}
+
+#large {
+    width: 60%;
+}
+
+#larger {
+    width: 50%;
+}
+
+#normal {
+    width: 40%;
+}
+
+#smaller {
+    width: 30%;
+}
+
+#small {
+    width: 20%;
+}
+
+#smallest {
+    width: 10%;
+}
+
+#tiny {
+    width: 5%;
+}
+
+a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:link {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0066ff;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-grey);
+    width: auto;
+    padding: 1rem;
+    float: left;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+}
+
+#nav-text {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-shadow: 0 0 2px white;
+}
+
+.nav a {
+    transition: 0.4s;
+    float: left;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-shadow: 0 0 2px white;
+}
+
+.nav a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav a:hover {
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.wrapper {
+    background-color: var(--dark-grey);
+    width: 75%;
+    height: auto;
+    margin-left: 23.5%;
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+    box-shadow: 0 0 30px -5px black;
+    font-size: 1.5rem;
+}
+
+.text {
+    margin-left: 2rem;
+}
+
+#getting-started {
+    text-align: left;
+}
+
+#queue-management {
+    text-align: left;
+}
+
+#customizability {
+    text-align: left;
+}

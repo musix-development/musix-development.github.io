@@ -6,8 +6,8 @@
       href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./public/main.css" />
-    <title>Musix - Home</title>
+    <link rel="stylesheet" href="./public/releases.css" />
+    <title>Musix - Releases</title>
   </head>
 
   <body>
@@ -33,42 +33,76 @@
       </nav>
 
       <script src="./public/main.js"></script>
-      <h1>Home</h1>
+      <h1>Releases</h1>
     </header>
-    <div id="phrase">
-      <div id="logo"></div>
-      Musix has all the features you would expect from a Discord music bot.<br />
-      But whats even better is that you can get it all for absolutely free!<br />
-      <button id="invite">
-        <a
-          href="https://discord.com/api/oauth2/authorize?client_id=607266889537945605&permissions=3427328&scope=bot%20applications.commands"
-          >Add to Discord</a
-        >
-      </button>
-    </div>
-    <div id="wrapper">
-      <div id="space"></div>
-      <div id="items">
-        <div class="item">
-          <img src="./public/img/images/uptodate.png" />
-          <br />Always being updated and worked on to deliver the best music
-          experience possible.
-        </div>
-        <div class="item">
-          <img src="./public/img/images/easytouse.png" />
-          <br />
-          Easy to use. No setup needed. Play music using a single command.
-        </div>
-        <div class="item">
-          <img src="./public/img/images/servers.png" /><br />We assure that
-          there is always enough capacity for all servers to have the best
-          quality possible.
-        </div>
-        <div class="item">
-          <img src="./public/img/images/sound.png" /><br />We have a different
-          audio modifiers that you can use free of charge.
-        </div>
+    <div class="release">
+      <img src="./public/img/logos/musix_round.png" />
+      <h1>
+        Musix#3411
+        <div id="stable">Stable</div>
+        <div id="verified">Verified</div>
+      </h1>
+      <h2>
+        This is our most used and most stable main bot. <br />Best stability and
+        quality is provided on this release.
+      </h2>
+      <div id="invite">
+        <button>
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=607266889537945605&permissions=3427328&scope=bot%20applications.commands"
+            >Add to Discord</a
+          >
+        </button>
       </div>
+    </div>
+    <div class="release">
+      <img src="./public/img/logos/musix_2_round.png" />
+      <h1>
+        Musix 2#1795
+        <div id="offline">Offline</div>
+      </h1>
+      <h2>
+        This is our secondary bot.<br />This release is currently offline so it
+        cannot be used!
+      </h2>
+      <div id="invite">
+        <button>
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=727669741618987139&permissions=3427328&scope=bot%20applications.commands"
+            >Add to Discord</a
+          >
+        </button>
+      </div>
+    </div>
+    <div class="release">
+      <img src="./public/img/logos/musix_beta_round.png" />
+      <h1>
+        Musix Beta#7026
+        <div id="unstable">Unstable</div>
+      </h1>
+      <h2>
+        This is our public test bot.<br />New updates that are unstable or
+        untested are pushed into this release.
+      </h2>
+      <div id="invite">
+        <button>
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=649252971690983446&permissions=3427328&scope=bot%20applications.commands"
+            >Add to Discord</a
+          >
+        </button>
+      </div>
+    </div>
+    <div class="release">
+      <img src="./public/img/logos/musix_dev.png" />
+      <h1>
+        Musix Dev#3406
+        <div id="private">Private</div>
+      </h1>
+      <h2>
+        This is our private development bot.<br />This realease is not available
+        for public!
+      </h2>
     </div>
     <link rel="stylesheet" href="./public/footer.css" />
     <footer>
@@ -106,4 +140,5 @@
       © Musix 2024 - Designed and developed by Matte
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>

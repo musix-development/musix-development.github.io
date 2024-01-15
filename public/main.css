@@ -1,0 +1,95 @@
+@import "./master.css";
+
+#phrase {
+  margin-left: 20%;
+  margin-top: 3cm;
+  margin-bottom: 6cm;
+  height: 150px;
+  width: 60%;
+  font-size: xx-large;
+}
+
+#logo {
+  background-image: url("./img/logos/musix_round.png");
+  display: block;
+  width: 128px;
+  height: 128px;
+  float: right;
+}
+
+#invite {
+  margin-top: 1cm;
+  margin-left: 5cm;
+  width: 6cm;
+  height: 1cm;
+  border-radius: 20px;
+  background-color: var(--light-blue);
+  text-align: center;
+  transition: 0.3s;
+  border: none;
+}
+
+#invite a {
+  font-size: x-large;
+  color: white;
+  text-shadow: 0 0 2px white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+#invite:hover {
+  transform: scale(1.2);
+}
+
+#wrapper {
+  margin-top: 1cm;
+  height: 500px;
+  background-image: url("./img/backgrouds/wave.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#space {
+  height: 3cm;
+}
+
+#items {
+  margin-top: 25px;
+  height: 250px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 25px;
+  font-size: x-large;
+  text-align: center;
+}
+
+@media (max-width: 1016px) {
+  #wrapper {
+    height: 700px;
+  }
+
+  #invite {
+    margin-left: 1cm;
+  }
+}
+
+@media (max-width: 516px) {
+  #wrapper {
+    height: 1200px;
+  }
+
+  #invite {
+    margin-left: 0cm;
+  }
+}

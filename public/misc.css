@@ -1,0 +1,15 @@
+@import "./master.css";
+
+#body {
+    width: 80%;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 50%;
+    text-align: center;
+    background-color: orange;
+    color: red;
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 0 0 30px -5px orange;
+}
