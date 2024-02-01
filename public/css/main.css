@@ -10,7 +10,7 @@
 }
 
 #logo {
-  background-image: url("./img/logos/musix_round.png");
+  background-image: url("../images/logos/musix_round.png");
   display: block;
   width: 128px;
   height: 128px;
@@ -44,7 +44,7 @@
 #wrapper {
   margin-top: 1cm;
   height: 500px;
-  background-image: url("./img/backgrouds/wave.png");
+  background-image: url("../images/backgrouds/wave.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

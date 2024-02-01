@@ -6,7 +6,7 @@
   margin-right: 5px;
   width: 40px;
   height: 40px;
-  background-image: url("./img/logos/Musix_logo_round_small.png");
+  background-image: url("../images/logos/musix.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -111,7 +111,7 @@ nav a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-image: url("./img/backgrouds/background.png");
+    background-image: url("../images/backgrouds/background.png");
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;

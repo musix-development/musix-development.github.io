@@ -29,7 +29,7 @@ footer {
   margin-top: 40px;
   width: 78.15px;
   height: 56.225px;
-  background-image: url("./img/logos/discord.png");
+  background-image: url("../images/logos/discord.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +49,7 @@ footer {
   margin-top: 10px;
   width: 32px;
   height: 32px;
-  background-image: url("./img/logos/github.png");
+  background-image: url("../images/logos/github.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
